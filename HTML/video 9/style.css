@@ -1,0 +1,15 @@
+.red {
+  color: red;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+#firstdiv {
+  border: 5px solid black;
+}
+
+#seconddiv {
+  border: 5px solid green;
+}
