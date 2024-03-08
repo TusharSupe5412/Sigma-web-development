@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(167, 171, 171);
+}
+
+h1 {
+  color: rgb(65, 53, 53);
+}
+
+h2 {
+  color: rgb(3, 46, 33);
+}
+
+li {
+  color: rgb(179, 17, 17);
+  line-height: 32px;
+}
+
+p {
+  line-height: 25px;
+}

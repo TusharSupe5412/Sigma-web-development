@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Outlines</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        border: 2px solid blueviolet;
+        padding: 34px;
+        box-shadow: 5px 5px 5px rgb(67, 37, 37) inset;
+        margin: 34px;
+        width: 56px;
+        display: inline-flex;
+      }
+
+      .textshadow > p {
+        padding: 34px;
+        margin: 34px;
+        text-shadow: 5px 5px 5px #034333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">I am a box</div>
+    <div class="box">I am another box</div>
+    <div class="box">I am also another box</div>
+
+    <div class="textshadow">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+        aperiam labore nesciunt corporis repellat omnis quos, fugit harum
+        dignissimos iusto ducimus rerum ipsum dicta. Itaque pariatur eveniet
+        architecto id. Enim obcaecati reiciendis minus tempora placeat corrupti,
+        et nobis magnam quam dignissimos repellat adipisci tempore excepturi.
+      </p>
+    </div>
+  </body>
+</html>
