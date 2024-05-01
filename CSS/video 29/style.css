@@ -3,16 +3,21 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(212, 190, 190);
+}
+
 .card {
   /* border: 2px solid black; */
   /* display: flexbox; */
   margin: 48px 528px;
   display: inline-block;
   justify-content: center;
-  outline: 2px solid rgba(128, 128, 128, 0.418);
+  outline: 2px solid rgb(128, 128, 128);
   outline-offset: 7px;
   border-radius: 15px;
   height: 500px;
+  background-color: rgba(255, 255, 255, 0.968);
 }
 
 img {
@@ -28,7 +33,7 @@ img {
 .container button {
   border-radius: 5px;
   color: rgb(46, 47, 49);
-  background-color: aliceblue;
+  background-color: rgba(78, 130, 172, 0.19);
   border-color: rgb(63, 66, 66);
   border: 5px;
   word-spacing: 20px;
@@ -56,6 +61,7 @@ img {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: rgba(76, 72, 72, 0.826);
 }
 
 .btn {

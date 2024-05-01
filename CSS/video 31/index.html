@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Media queries</title>
+
+    <style>
+      body {
+        background-color: rgb(230, 13, 27);
+      }
+
+      .boxes {
+        display: flex;
+      }
+
+      .box {
+        background-color: aqua;
+        border-radius: 2px solid black;
+        padding: 5px;
+        margin: 5px;
+        height: 300px;
+        width: 515px;
+      }
+
+      /* @media not|only mediatype and (expresssions){
+        css code;
+      }  */
+
+      @media only screen and (max-width: 455px) {
+        body {
+          background-color: blue;
+        }
+
+        .boxes {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>Hey I am red body guy.</div>
+
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
